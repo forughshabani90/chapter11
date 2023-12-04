@@ -1,8 +1,6 @@
-package CaseStudy;
+package CaseStudy1;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 public class MyStack {
@@ -16,7 +14,7 @@ public class MyStack {
         return list.size();
     }
 
-    public Objects peek() {
+    public Object peek() {
         return list.get(getSize() - 1);
     }
 

@@ -13,6 +13,9 @@ public class GeometricObject {
         this.filled = filled;
     }
 
+    public GeometricObject() {
+    }
+
     public String getColor() {
         return color;
     }

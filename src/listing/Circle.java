@@ -2,6 +2,9 @@ package listing;
 
 public class Circle extends GeometricObject {
     private double radius;
+    public Circle(int radius){
+
+    }
 
 //public Circle(){
 //    super();

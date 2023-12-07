@@ -1,7 +1,10 @@
 package listing;
 
+import java.awt.geom.Area;
+
 public class Circle extends GeometricObject {
     private double radius;
+    private int Area;
     public Circle(int radius){
 
     }
@@ -23,5 +26,9 @@ public class Circle extends GeometricObject {
 
     public void setRadius(double radius) {
         this.radius = radius;
+    }
+
+    public int getArea() {
+        return Area;
     }
 }
